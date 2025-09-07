@@ -1,41 +1,20 @@
-# Proyecto POO - Gestor de Tareas en Java
+# Sistema de Biblioteca Digital
 
-Este proyecto es una práctica académica de Programación Orientada a Objetos (POO) desarrollada en Java, realizada como parte de la asignatura de Tecnologías de Información. El objetivo principal es implementar un gestor básico de tareas que permite registrar, mostrar y gestionar tareas a través de un menú interactivo en consola.
+## Descripción
+Este proyecto aplica un sistema sencillo de biblioteca digital utilizando Java y Programación Orientada a Objetos (POO).  
+Facilita registrar usuarios, añadir y quitar libros, prestar y devolver libros, buscar libros por título, autor o categoría, y listar libros prestados por usuario.
 
-## Estructura del Proyecto
+## Clases principales
+- **Libro.java**: representa un libro (ISBN, título, autor, categoría, año).  
+- **Usuario.java**: representa un usuario (ID, nombre, lista de libros prestados).  
+- **Biblioteca.java**: maneja el catálogo de libros, los usuarios y los préstamos.  
+- **Main.java**: flujo de prueba que registra usuarios, añade libros, realiza préstamos y búsquedas.
 
-com.tunombre.proyecto
-├── modelo
-│ └── Tarea.java # Clase que representa una tarea individual
-├── servicio
-│ └── TareaServicio.java # Clase encargada de la lógica y gestión de tareas
-├── vista
-│ └── TareaVista.java # Clase encargada de la presentación y salida al usuario
-└── dashboard
-└── Dashboard.java # Clase principal que contiene el menú y controla el programa
+## Cómo ejecutar
+1. Abrir el proyecto en tu IDE de Java (NetBeans, Eclipse, IntelliJ, etc.).  
+2. Ejecutar `Main.java` para probar la funcionalidad.  
+3. Observar los resultados en la consola.
 
-## Funcionalidades
-
-- Registro de tareas con estado pendiente o completada.
-- Visualización de la lista de tareas registradas.
-- Menú interactivo por consola que permite gestionar las tareas de manera sencilla.
-
-## Tecnologías y Herramientas
-
-- Lenguaje de programación Java SE.
-- IDE recomendado: NetBeans, IntelliJ IDEA o Eclipse.
-- Aplicación de principios básicos de POO y principios SOLID.
-
-## Instrucciones para la ejecución
-
-1. Clona o descarga el repositorio en tu computadora.
-2. Abre el proyecto con tu IDE de preferencia.
-3. Ejecuta la clase `Dashboard.java` ubicada en el paquete `dashboard`.
-4. Interactúa con el menú en consola para registrar y mostrar tareas.
-
-## Autora
-
-**Heidy Johana Meza Licuy**
-
----
+## Autor
+- Heidy Johana Meza Licuy
 
